@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules
+npm-debug.log
+
+# IDE configuration files
+*.suo
+*.user
+*.sln
+*.csproj
+*.vbproj
+*.vcxproj
+*.userprefs
+*.vssettings
+*.dwsettings
+
+# Editor configuration files
+.vscode/
+.idea/
+
+# Build output and temporary files
+build/
+dist/
+bin/
+obj/
+*.log
+*.tmp
+*.swp
+
+# Test results
+test-results/
+coverage/
+
+# Secrets and sensitive information
+*.env
+*.secrets
+*.key
+
+# Git-specific files
+.git/config
+.git/index
+.git/HEAD
+
+# Docker-specific files
+.dockerignore
