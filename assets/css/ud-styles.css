@@ -646,7 +646,7 @@ p {
 }
 
 .ud-hero-image {
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
   text-align: center;
   position: relative;
@@ -656,6 +656,12 @@ p {
 .ud-hero-image img {
   max-width: 100%;
   text-align: center;
+}
+
+@media only screen and (max-width: 414px) {
+  .ud-hero-image img {
+    max-width: 100%;
+  }
 }
 
 .ud-hero-image .shape {
@@ -1340,7 +1346,7 @@ p {
 
 @media (max-width: 767px) {
   .ud-contact {
-    padding: 10px 0;
+    padding: 40px 0;
   }
 }
 
