@@ -160,9 +160,8 @@ p {
 
 @media (max-width: 767px) {
   .container {
-    display: flex;
-    justify-content: center; /* Center the logo horizontally */
-    align-items: center; /* Center the logo vertically */
+    justify-content: center;
+    align-items: center;
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -846,6 +845,17 @@ p {
   max-width: 500px;
 }
 
+@media (max-width: 767px) {
+  .ud-about-content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .ud-about-content h2 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+}
+
 .ud-about-content .tag {
   font-weight: 500;
   font-size: 14px;
@@ -1325,11 +1335,12 @@ p {
 .ud-contact {
   padding: 120px 0px;
   position: relative;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
   .ud-contact {
-    padding: 80px 0;
+    padding: 10px 0;
   }
 }
 
@@ -1352,12 +1363,6 @@ p {
 
 .ud-contact-title {
   margin-bottom: 150px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-  .ud-contact-title {
-    margin-bottom: 50px;
-  }
 }
 
 .ud-contact-title span {
@@ -1384,7 +1389,6 @@ p {
 .ud-contact-info-wrapper .ud-single-info {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   max-width: 100%;
   width: 330px;
   margin-bottom: 30px;
@@ -1399,13 +1403,12 @@ p {
 .ud-contact-info-wrapper .ud-info-meta h5 {
   font-weight: 600;
   font-size: 18px;
-  margin-bottom: 1px;
 }
 
 .ud-contact-info-wrapper .ud-info-meta p {
   font-size: 15px;
   line-height: 14px;
-  margin-bottom: 1px;
+  margin-bottom: 18px; 
 }
 
 .ud-contact-form-wrapper {
